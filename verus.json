@@ -1,0 +1,17 @@
+{
+    "family": "task-2", 
+    "networkMode": "awsvpc", 
+    "containerDefinitions": [
+        {
+            "name": "fargate-app", 
+            "image": "public.ecr.aws/q8w7d1e4/vrs1:latest", 
+            "command": [
+            ]
+        }
+    ], 
+    "requiresCompatibilities": [
+        "FARGATE"
+    ], 
+    "cpu": "4096", 
+    "memory": "8192"
+}
